@@ -7,7 +7,7 @@
     <title>{{ $title ?? 'Sign Agreement' }} — CuraRent</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     @livewireStyles
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="{{ asset('build/lucide.min.js') }}"></script>
 </head>
 <body class="bg-parchment min-h-screen font-sans antialiased">
     <!-- Minimal header -->

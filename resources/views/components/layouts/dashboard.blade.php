@@ -7,7 +7,7 @@
     <title>{{ $title ?? 'Dashboard' }} — CuraRent</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     @livewireStyles
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="{{ asset('build/lucide.min.js') }}"></script>
 </head>
 <body class="bg-sand min-h-screen font-sans antialiased" x-data="{ sidebarOpen: false }">
     <div class="flex min-h-screen">

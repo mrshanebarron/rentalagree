@@ -6,7 +6,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>{{ $title ?? 'CuraRent' }} — Digital Car Rental Agreements</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="{{ asset('build/lucide.min.js') }}"></script>
 </head>
 <body class="bg-sand min-h-screen font-sans antialiased">
     <!-- Public Navigation -->
