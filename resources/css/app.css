@@ -1,0 +1,100 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+/* Self-hosted fonts — NO external requests */
+@font-face {
+    font-family: 'Cormorant Garamond';
+    src: url('/fonts/cormorant-garamond-latin-400.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cormorant Garamond';
+    src: url('/fonts/cormorant-garamond-latin-600.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cormorant Garamond';
+    src: url('/fonts/cormorant-garamond-latin-700.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url('/fonts/dm-sans-latin-400.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url('/fonts/dm-sans-latin-500.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url('/fonts/dm-sans-latin-700.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Serif Display';
+    src: url('/fonts/dm-serif-display-latin-400.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@theme {
+    --font-sans: 'DM Sans', ui-sans-serif, system-ui, sans-serif;
+    --font-display: 'Cormorant Garamond', ui-serif, Georgia, serif;
+    --font-serif: 'DM Serif Display', ui-serif, Georgia, serif;
+
+    --color-navy: #1C3557;
+    --color-navy-light: #2A4A73;
+    --color-navy-dark: #142740;
+    --color-teal: #00897B;
+    --color-teal-light: #00A896;
+    --color-teal-dark: #006B60;
+    --color-terracotta: #C0623A;
+    --color-terracotta-light: #D4794F;
+    --color-terracotta-dark: #A04E2D;
+    --color-parchment: #F5F0E8;
+    --color-parchment-dark: #EBE4D8;
+    --color-charcoal: #2D2D2D;
+    --color-sand: #FAFAF5;
+    --color-warm-gray: #D4CFC7;
+    --color-warm-gray-light: #E8E4DC;
+}
+
+/* Base styles */
+body {
+    font-family: 'DM Sans', ui-sans-serif, system-ui, sans-serif;
+    color: #2D2D2D;
+}
+
+/* Utility classes */
+.font-display {
+    font-family: 'Cormorant Garamond', ui-serif, Georgia, serif;
+}
+
+.font-serif-display {
+    font-family: 'DM Serif Display', ui-serif, Georgia, serif;
+}
