@@ -7,16 +7,16 @@
     "license": "MIT",
     "repositories": [
         {
-            "type": "path",
-            "url": "/Users/shane/Sites/packages/signature-pad"
+            "type": "vcs",
+            "url": "https://github.com/mrshanebarron/signature-pad.git"
         },
         {
-            "type": "path",
-            "url": "/Users/shane/Sites/packages/file-upload"
+            "type": "vcs",
+            "url": "https://github.com/mrshanebarron/file-upload.git"
         },
         {
-            "type": "path",
-            "url": "/Users/shane/Sites/packages/progress"
+            "type": "vcs",
+            "url": "https://github.com/mrshanebarron/progress.git"
         }
     ],
     "require": {

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a328c817f67e396f0ae62005ad8edaa1",
+    "content-hash": "2df5eb51cb83ede1f5aa1eab4a69f327",
     "packages": [
         {
             "name": "barryvdh/laravel-dompdf",
@@ -2500,15 +2500,22 @@
         {
             "name": "mrshanebarron/file-upload",
             "version": "dev-main",
-            "dist": {
-                "type": "path",
-                "url": "/Users/shane/Sites/packages/file-upload",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mrshanebarron/file-upload.git",
                 "reference": "17b0ab0183235ef130dc11b71842cf2750400bed"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mrshanebarron/file-upload/zipball/17b0ab0183235ef130dc11b71842cf2750400bed",
+                "reference": "17b0ab0183235ef130dc11b71842cf2750400bed",
+                "shasum": ""
             },
             "require": {
                 "illuminate/support": "^10.0|^11.0|^12.0",
                 "php": "^8.1"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -2532,22 +2539,31 @@
                 }
             ],
             "description": "File upload component for Laravel - supports Livewire and Vue",
-            "transport-options": {
-                "relative": false
-            }
+            "support": {
+                "source": "https://github.com/mrshanebarron/file-upload/tree/main",
+                "issues": "https://github.com/mrshanebarron/file-upload/issues"
+            },
+            "time": "2025-12-24T23:13:51+00:00"
         },
         {
             "name": "mrshanebarron/progress",
             "version": "dev-main",
-            "dist": {
-                "type": "path",
-                "url": "/Users/shane/Sites/packages/progress",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mrshanebarron/progress.git",
                 "reference": "a306250adf579d958e3d2fba93963db79891ca86"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mrshanebarron/progress/zipball/a306250adf579d958e3d2fba93963db79891ca86",
+                "reference": "a306250adf579d958e3d2fba93963db79891ca86",
+                "shasum": ""
             },
             "require": {
                 "illuminate/support": "^10.0|^11.0|^12.0",
                 "php": "^8.1"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -2579,22 +2595,31 @@
                 "progress-bar",
                 "vue"
             ],
-            "transport-options": {
-                "relative": false
-            }
+            "support": {
+                "source": "https://github.com/mrshanebarron/progress/tree/v1.0.4",
+                "issues": "https://github.com/mrshanebarron/progress/issues"
+            },
+            "time": "2025-12-21T03:03:33+00:00"
         },
         {
             "name": "mrshanebarron/signature-pad",
             "version": "dev-main",
-            "dist": {
-                "type": "path",
-                "url": "/Users/shane/Sites/packages/signature-pad",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mrshanebarron/signature-pad.git",
                 "reference": "deb9c3f8dbbf6b06045e255d4d0636fe964a8ab0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mrshanebarron/signature-pad/zipball/deb9c3f8dbbf6b06045e255d4d0636fe964a8ab0",
+                "reference": "deb9c3f8dbbf6b06045e255d4d0636fe964a8ab0",
+                "shasum": ""
             },
             "require": {
                 "illuminate/support": "^10.0|^11.0|^12.0",
                 "php": "^8.1"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -2618,9 +2643,11 @@
                 }
             ],
             "description": "Signature pad component for Laravel - supports Livewire and Vue",
-            "transport-options": {
-                "relative": false
-            }
+            "support": {
+                "source": "https://github.com/mrshanebarron/signature-pad/tree/main",
+                "issues": "https://github.com/mrshanebarron/signature-pad/issues"
+            },
+            "time": "2025-12-24T23:21:22+00:00"
         },
         {
             "name": "nesbot/carbon",
